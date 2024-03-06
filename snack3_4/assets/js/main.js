@@ -27,4 +27,3 @@ const personCanDrink = personList.filter((checkPerson) => checkPerson.età >= 18
 personCanDrink.forEach((person) => {
   console.log(person.nome + ' ' + person.cognome + ' can drink')
 });
-
