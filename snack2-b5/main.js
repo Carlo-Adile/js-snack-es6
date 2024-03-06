@@ -25,6 +25,7 @@ function zucchiniWeight(shortZucchini, longZucchini) {
       totalLongWeight += zucchina.peso;
     }
   }
+  
   console.log("Il peso totale delle zucchine corte è:", totalShortWeight);
   console.log("Il peso totale delle zucchine lunghe è:", totalLongWeight);
 }
